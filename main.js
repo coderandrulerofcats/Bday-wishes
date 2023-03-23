@@ -3,7 +3,7 @@ var x= document.getElementById("myAudio");
 
 function new_image()
 {
-fabric.Image.fromURL('BirthdayImage.jpg', funtion(Img))
+fabric.Image.fromURL('BirthdayImage.jpg', function(Img)
 {
     block_image_object=Img;                                     
     block_image_object.scaleToWidth(700);
@@ -14,7 +14,7 @@ fabric.Image.fromURL('BirthdayImage.jpg', funtion(Img))
   left:0
     });
     canvas.add(block_image_object);
-};
+});
 } 
 
 
